@@ -2,6 +2,7 @@ import './App.css';
 import Greeting from "./Greeting.jsx";
 import UserCard from "./UserCard.jsx";
 import TaskList from "./TaskList.jsx";
+import Counter from "./Counter.jsx";
 function App() {
     return (
         <div className="App">
@@ -11,6 +12,8 @@ function App() {
             <UserCard name="Саня" role="Экономист" avatarUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfVMhpKmVy_-iwfRLAiNiaDslMa-2oEz7KTw&s" isOnline={false}/>
             <UserCard name="Леха" role="Сомелье" avatarUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfVMhpKmVy_-iwfRLAiNiaDslMa-2oEz7KTw&s" isOnline={false}/>
             <TaskList />
+            <Counter />
+
         </div>
     );
 }
